@@ -21,19 +21,19 @@ function love.keypressed(key)
   end
 
   if key == "right" then
-    player.x = player.x + 10
+    player.x = player.x + 20
   end
 
   if key == "left" then
-    player.x = player.x - 10
+    player.x = player.x - 20
   end
 
   if key == "up" then
-    player.y = player.y - 10
+    player.y = player.y - 20
   end
 
   if key == "down" then
-    player.y = player.y + 10
+    player.y = player.y + 20
   end
 
   if key == "escape" then
